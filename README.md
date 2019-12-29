@@ -1,0 +1,2 @@
+# SpMV-Using-ELL-Sectioned-JDS-Format
+A C++ with CUDA C program that generates a random square matrix A of size NxN with mostly zeros, and two vectors X and Y of size N. The sparsity of the matrix (i.e., the ratio of zero to non-zero elements) should be specified by the user. Your program should convert the matrix A to the ELL-sectioned JDS format and then compute the SpMV operation on it. The conversion itself is parallelized
